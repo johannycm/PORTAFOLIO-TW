@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Langita';
+  src: url('./archivos/Langita.woff') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: langita;
+}
+
+body, footer {
+  font-family: "Montserrat", sans-serif;
+}
+
+#typing {
+  width: 1150px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #ffffff;
+  animation: typing 2s steps(12, end), cursor .2s steps(12, end) infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+}
+
+@keyframes cursor {
+  100% { border-color: transparent }
+}
+
