@@ -20,6 +20,7 @@ body, footer {
   border-right: 2px solid #ffffff;
   animation: typing 2s steps(12, end), cursor .2s steps(12, end) infinite;
 }
+
 @keyframes typing {
   from { width: 0 }
 }
